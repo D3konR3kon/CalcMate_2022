@@ -1,0 +1,41 @@
+body{
+    display: block;
+}
+#calc{
+    border: 3px solid #020024;
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 1.5em;
+    padding: 1.5em 1em; 
+    background-color: #00d4ff;
+}
+.numbers{
+    width:4.5em ;
+    height: 4.5em;
+    margin-bottom: 0.2em;
+    size: 0.5em;
+}.operator{
+    width:4.5em ;
+    height: 4.5em;
+    margin-bottom: 0.2em;
+    size: 0.5em;
+}
+.clear{
+    width:18.8em ;
+    height: 4.5em;
+    margin-bottom: 0.2em;
+    size: 0.5em;
+}.equal{
+    width:4.5em ;
+    height: 4.5em;
+    margin-bottom: 0.2em;
+    size: 0.5em;
+}
+#display{
+    width: 18.2em;
+    height: 4.5em;
+    margin-bottom: 2em;
+}
